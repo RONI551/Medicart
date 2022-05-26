@@ -1,0 +1,181 @@
+
+
+.slider-section{
+    
+    position: relative;
+    height: 108vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.Carousel-image{
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.Right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    z-index: 20;
+    cursor: pointer;
+    user-select: none;
+    
+
+}
+.left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 20;
+    cursor: pointer;
+    user-select: none;
+    
+
+}
+
+.slider {
+    opacity: 1;
+    transition-duration: 1s ease;
+
+}
+
+.slider.active{
+    opacity: 1;
+    transition-duration: 1s ease ;
+    transform: scale(1.08);
+}
+
+@media (max-width: 650px) {
+    .Carousel-image{
+        width: 300px;
+        height: auto;
+        border-radius: 5px;
+        z-index: -1;
+    }
+    
+.Right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    font-size: 40px!important;
+    color: rgb(0, 0, 0);
+    z-index: 20;
+    cursor: pointer;
+    user-select: none;
+    
+
+}
+.left-arrow{
+    position: absolute;
+    font-size: 40px!important;
+    top: 50%;
+    left: 0px;
+    font-size: 3rem;
+    color: black;
+    z-index: 20;
+    cursor: pointer;
+    user-select: none;
+    
+
+}
+.slider-section{
+    top: -5px;
+}
+   
+    
+
+}
+@media (max-width: 850px) {
+    .Carousel-image{
+        width: 670px;
+        height: auto;
+        border-radius: 5px;
+        z-index: -1;
+    }
+    
+.Right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    font-size: 40px!important;
+    color: rgb(0, 0, 0);
+    z-index: 20;
+    cursor: pointer;
+    user-select: none;
+    
+
+}
+.left-arrow{
+    position: absolute;
+    font-size: 40px!important;
+    top: 50%;
+    left: 0px;
+    font-size: 3rem;
+    color: black;
+    z-index: 20;
+    cursor: pointer;
+    user-select: none;
+    
+
+}
+.slider-section{
+    top: -5px;
+}
+   
+    
+
+}
+
+@media (max-width: 450px) {
+    .Carousel-image{
+        width: 300px;
+        height: auto;
+        border-radius: 5px;
+        z-index: -1;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .Carousel-image{
+        width: 280px;
+        height: auto;
+        border-radius: 5px;
+        z-index: -1;
+        margin-top: 100px;    }
+        .Right-arrow{
+            position: absolute;
+            top: 55%;
+            right: 0px;
+            font-size: 40px!important;
+            color: rgb(0, 0, 0);
+            z-index: 20;
+            cursor: pointer;
+            user-select: none;
+            
+        
+        }
+        .left-arrow{
+            position: absolute;
+            font-size: 40px!important;
+            top: 55%;
+            left: 0px;
+            font-size: 3rem;
+            color: black;
+            z-index: 20;
+            cursor: pointer;
+            user-select: none;
+            
+        
+        }
+
+}
